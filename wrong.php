@@ -45,8 +45,6 @@ fwrite($handle, " $today");
 
 fwrite($handle, "\n");
 
-fwrite($handle, "---------------------------------------------------");
-
 fwrite($handle, "\n");
 
 fclose($handle);
